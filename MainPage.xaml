@@ -8,28 +8,21 @@
             Padding="30,0"
             Spacing="25">
             <Image
-                Source="cart.png"
+                Source="shoppinglist.png"
                 HeightRequest="185"
                 Aspect="AspectFit"
                 SemanticProperties.Description="dot net bot in a race car number eight" />
 
             <Label
-                Text="Bine ai venit!"
+                Text="Welcome to your shopping list!"
                 Style="{StaticResource Headline}"
                 SemanticProperties.HeadingLevel="Level1" />
 
             <Label
-                Text="Spor la cumparaturi!"
+                Text="Shop smart. Stay organized."
                 Style="{StaticResource SubHeadline}"
                 SemanticProperties.HeadingLevel="Level2"
                 SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
-
-            <Button
-                x:Name="CounterBtn"
-                Text="Click me" 
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Fill" />
         </VerticalStackLayout>
     </ScrollView>
 
