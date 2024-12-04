@@ -20,4 +20,4 @@
         ContentTemplate="{DataTemplate local:ListEntryPage}"
         />
     </TabBar>
-</Shell>
+</Shell>
